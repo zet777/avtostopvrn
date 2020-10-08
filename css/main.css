@@ -1,0 +1,80 @@
+/*TODO*/
+/*1. Выровнить по флексам header */
+
+
+
+/*Global*/
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.red{
+	color: #af1519;
+}
+.white{
+	color: #fff;
+}
+.no-wrap{
+
+}
+/*header*/
+header{
+	background-color: #000;
+}
+.header__header-links{
+	width: 80%;
+	margin: auto;
+	background-color: #000;
+}
+
+.header-links__menu{
+	display: flex;
+  justify-content:space-around;
+}
+.header-links__menu>li>a{
+	color: #909090;
+}
+.header-links__menu>li>span{
+	color:#fff;
+}
+.header__header-info{
+	width: 80%;
+	margin:40px auto 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.header__header-info>div{
+height: 120px;
+}
+.header-info__logo a{
+	display: block;
+	width: 141px;
+	height: 100px;
+	background: url(../img/logo.png) top left no-repeat;
+}
+, .header-info__mail{
+	color: #fff;
+}
+.header-info__phone{
+	background: url(../img/phone.png) bottom left no-repeat;
+	line-height: 32px;
+}
+.phone-name, .phone-time{
+	font-size: 14px;
+}
+.phone-number{
+	font-size: 26px;
+}
+.phone-name, .phone-number, .phone-time{
+	padding-left: 60px;
+}
+.header-info__mail{
+	background: url(../img/ism.png) top left no-repeat;
+}
+.autoservice,.autospare, .header__mail{
+	padding-left: 25px;
+	line-height: 31px;
+}
+.header-info__other>.white{
+	padding-top: 18px;
+}
