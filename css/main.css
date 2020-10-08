@@ -29,6 +29,7 @@ header{
 .header-links__menu{
 	display: flex;
   justify-content:space-around;
+  flex-wrap: wrap;
 }
 .header-links__menu>li>a{
 	color: #909090;
@@ -40,6 +41,7 @@ header{
 	width: 80%;
 	margin:40px auto 30px auto;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
 }
@@ -77,4 +79,28 @@ height: 120px;
 }
 .header-info__other>.white{
 	padding-top: 18px;
+}
+
+.header__main-menu{
+	  width: 80%;
+    margin: auto;
+}
+
+.main-menu__links{
+	background: #1c1c1c;
+  height: 69px;
+}
+.main-menu__links a{
+	text-decoration: none;
+    text-transform: uppercase;
+    border: 0;
+    float: left;
+    color: #fff;
+    text-shadow: 0px -1px 0px #000000;
+    line-height: 69px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-left: 1px solid #151515;
+    border-right: 1px solid #323232;
+    list-style: none;
 }
