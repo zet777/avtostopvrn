@@ -87,8 +87,14 @@ height: 120px;
 }
 
 .main-menu__links{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  
+}
+.main-menu__links>li{
 	background: #1c1c1c;
-  height: 69px;
+  
 }
 .main-menu__links a{
 	text-decoration: none;
