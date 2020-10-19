@@ -90,6 +90,7 @@ height: 120px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items:center;
   
 }
 .main-menu__links>li{
@@ -109,4 +110,9 @@ height: 120px;
     border-left: 1px solid #151515;
     border-right: 1px solid #323232;
     list-style: none;
+}
+.searchSbmFl{
+	width: 32px;
+	height: 32px;
+	background: #af1519;
 }
