@@ -77,12 +77,16 @@ height: 120px;
 	padding-left: 25px;
 	line-height: 31px;
 }
+.header-info__other{
+/*background: url(../img/basket.png) no-repeat;*/
+color:#909090;
+}
 .header-info__other>.white{
 	padding-top: 18px;
 }
 
 .header__main-menu{
-	  width: 80%;
+	  flex-basis: 80%;
     margin: auto;
 }
 
@@ -111,8 +115,29 @@ height: 120px;
     border-right: 1px solid #323232;
     list-style: none;
 }
+.input-li{
+	padding: 18px;
+}
+
+.queryField input{
+	color:#474747 !important;
+}
 .searchSbmFl{
 	width: 32px;
 	height: 32px;
 	background: #af1519;
+}
+
+.main-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.left-colum{
+	flex-basis: 20%;
+}
+.main-content__center{
+	border:1px solid black;
+	padding:5px;
+	flex-basis: 80%;
 }
